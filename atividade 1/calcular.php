@@ -1,5 +1,5 @@
 <?php
-$vetor = array();
-$numero = $vetor[rand(0, max: 99)];
-echo "numero: $numero";
+$aleatorio = rand(0, 99);
+echo "<h2>Número sorteado: <strong>$aleatorio</strong></h2>";
 ?>
+<br>

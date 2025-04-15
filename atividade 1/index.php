@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Números</title>
+    <title>Gerar Número</title>
 </head>
 <body>
-    <h1>clique no botao</h1>
-
-    <form method="get">
-         Número: <input type="number" name="numero" required>
-        <button type="submit">Mostrar</button>
+    <h2>Gerador de número aleatório (0 a 99)</h2>
+    <form action="calcular.php" method="post">
+        <button type="submit">Gerar número</button>
     </form>
-    </body>
+</body>
 </html>
