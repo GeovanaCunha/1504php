@@ -9,7 +9,7 @@
     <h1>clique no botao</h1>
 
     <form method="get">
-       
+         Número: <input type="number" name="numero" required>
         <button type="submit">Mostrar</button>
     </form>
     </body>
